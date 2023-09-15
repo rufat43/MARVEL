@@ -1,21 +1,263 @@
-img{
-    width: 200px;
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@500&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Oswald:wght@400;500;600;700&family=Phudu:wght@300&family=Playfair+Display:wght@400;500&family=Raleway:wght@100&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:wght@300&family=Teko:wght@600&family=Tilt+Prism&family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@500&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Oswald:wght@400;500;600;700&family=Phudu:wght@300&family=Playfair+Display:wght@400;500&family=Raleway:wght@100&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:wght@300&family=Teko:wght@600&family=Tilt+Prism&family=Ubuntu:wght@400;500&display=swap');
+
+:root{
+    --text-color-main: rgb(240, 240, 240);
+    --text-color-suppotr: rgba(240, 240, 240, 0.7);
+    /* f0f0f0 */
+    --ironman-color: rgb(249, 32, 49);
+    /* #f92031*/
+    --thor-color: rgb(171, 0, 51);
+    /* #ab0033 */
+    --star-lord-color-1: rgb(228, 94, 49);
+    /* #e45e31 */
+    --star-lord-color-2: rgb(124, 47, 189);
+    /* #7c2fbd */
+    --spider-man-color: rgb(249, 15, 40);
+    /* #f90f28 */
+    --hulk-color: rgb(14, 188, 29);
+    /* #0ebc1d */
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: var(--text-color-main);
 }
 
 /* start nav menu */
 
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 1170px; */
+    align-items: center;
+    gap: 12rem 15rem;
+    border-bottom: 1px solid var(--text-color-suppotr);
+}
+
+.menu-logo{
+    border-left: 1px solid var(--text-color-suppotr);
+    border-right: 1px solid var(--text-color-suppotr);
+    padding: 10px 15px;
+}
+
+.menu-container img{
+    width: 30px;
+}
+
+.menu-container-1{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.menu-container-2{
+    border-left: 1px solid var(--text-color-suppotr);
+    border-right: 1px solid var(--text-color-suppotr);
+    padding: 18px 15px;
+}
+
+.menu-container a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    font-size: 22px;
+    font-family: 'Akatab', sans-serif;
+}
 
 
 /* end  nav menu */
 
+main{
+    display: grid;
+    grid-template-columns: 60px 250px 840px;
+    justify-content: center;
+}
+
 /* start nav social */
 
+.socail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 1rem;
+}
+
+.social-scroll{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16rem;
+}
+
+.social-scroll img{
+    background-color: var(--ironman-color);
+    padding: 10px 18px;
+}
+
+.social-scroll h1{
+    color: var(--text-color-main);
+    writing-mode: vertical-rl;
+    text-align: center;
+    padding: 10px 0;
+    margin: auto;
+    letter-spacing: 5px;
+    font-family: 'Akatab', sans-serif;
+    font-weight: 200;
+}
 
 /* end nav social */
 
 /* start nav scroll */
 
+.scroll{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 
+.scroll img{
+    width: 250px;
+}
+
+.scroll-card{
+    border-left: 5px solid black;
+}
+
+.scroll-card-iron-man:hover{
+    border-left: 5px solid var(--ironman-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(249,32,49,1);
+}
+
+.scroll-card-thor:hover{
+    border-left: 5px solid var(--thor-color);
+}
+
+.scroll-card-star-lold:hover{
+    border-left: 5px solid var(--star-lord-color-1);
+}
+
+.scroll-card-spider-man:hover{
+    border-left: 5px solid var(--spider-man-color);
+}
+
+.scroll-card-hulk:hover{
+    border-left: 5px solid var(--hulk-color);
+}
+
+.scroll-card a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.scroll-card h2{
+    font-weight: 100;
+    padding: 10px;
+    margin-top: -52px;
+    font-family: 'Akatab', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Phudu', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Teko', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 /* end nav scroll */
+
+/* start iron mam */
+
+.ironman{
+    background-image: url(ironman-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 750px auto;
+    padding-left: 10px;
+}
+
+.container-iron-man{
+    display: grid;
+    grid-column: auto auto;
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.item2{
+    grid-row: 2;
+}
+
+.item3{
+    grid-row: 2;
+}
+
+.info-iron-man-1{
+    padding: 50px 20px 30px 30px;
+}
+
+.info-iron-man-1 h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--ironman-color);
+}
+
+.info-iron-man-1 p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.info-iron-man-2{
+    padding: 10px 20px 50px 30px;
+}
+
+.info-iron-man-2 p{
+    font-size: 20px;
+}
+
+.info-iron-man-2 a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    font-size: 20px;
+    padding: 5px 100px 5px 5px;
+    border: 1px solid var(--text-color-main);
+}
+
+.info-iron-man-2 p{
+    margin-bottom: 30px;
+}
+
+.png-iron-man img{
+    width: 315px;
+}
+
+
+/* end iron man */
