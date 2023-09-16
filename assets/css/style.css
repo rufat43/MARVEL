@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Akatab:wght@500&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Oswald:wght@400;500;600;700&family=Phudu:wght@300&family=Playfair+Display:wght@400;500&family=Raleway:wght@100&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:wght@300&family=Teko:wght@600&family=Tilt+Prism&family=Ubuntu:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@500&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Oswald:wght@400;500;600;700&family=Phudu:wght@300&family=Playfair+Display:wght@400;500&family=Raleway:wght@100&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:wght@300&family=Teko:wght@600&family=Tilt+Prism&family=Ubuntu:wght@400;500&display=swap');
-
 :root{
     --text-color-main: rgb(240, 240, 240);
     --text-color-suppotr: rgba(240, 240, 240, 0.7);
@@ -34,6 +32,11 @@ body{
 
 .menu{
     display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -79,6 +82,7 @@ main{
     display: grid;
     grid-template-columns: 60px 260px 830px;
     justify-content: center;
+    padding: 68px;
 }
 
 /* start nav social */
@@ -87,6 +91,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: black;
 }
 
 .social-container{
@@ -94,14 +99,19 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
-    gap: 1rem;
+    background-color: black;
+    padding: 18px;
+    gap: 1rem; 
+    position: fixed;
+    z-index: 1;
 }
 
 .social-scroll{
     display: flex;
     flex-direction: column;
-    margin-top: 16rem;
+    margin-top: 28rem;
+    position: fixed;
+    z-index: 1;
 }
 
 .social-scroll img{
