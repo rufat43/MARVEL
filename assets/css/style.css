@@ -36,10 +36,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* width: 1170px; */
     align-items: center;
     gap: 12rem 15rem;
     border-bottom: 1px solid var(--text-color-suppotr);
+    /* position: fixed;
+    top: 0; */
 }
 
 .menu-logo{
@@ -194,7 +195,7 @@ main{
     background-repeat: no-repeat;
     width: 100%;
     display: grid;
-    grid-template-columns: 750px auto;
+    grid-template-columns: 735px auto;
     padding-left: 10px;
 }
 
@@ -259,5 +260,65 @@ main{
     width: 315px;
 }
 
+.scroll-iron-man{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-iron-man a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    font-family: 'Akatab', sans-serif;
+    letter-spacing: 3px;
+    border-left: 1px solid var(--text-color-suppotr);
+    border-right: 1px solid var(--text-color-suppotr);
+    padding: 46px 30px;
+}
+
+.scroll-iron-man-1{
+    background-color: rgba(249, 32, 49, 0.5);
+}
+
+.scroll-iron-man-1:hover{
+    background-color: var(--ironman-color);
+    transition: 0.8s;
+}
+
+.scroll-iron-man-2{
+    background: rgb(91,3,150);
+    background: radial-gradient(circle, rgba(55, 2, 90, 0.7) 47%, rgba(15, 1, 117, 0.6) 83%);
+}
+
+.scroll-iron-man-2:hover{
+    background: rgb(91,3,150);
+    background: radial-gradient(circle, rgba(55, 2, 90, 1) 47%, rgba(15, 1, 117, 1) 83%);
+    transition: 0.8s;
+}
+
+.scroll-iron-man-3{
+    background: rgb(50,12,54);
+    background: radial-gradient(circle, rgba(50, 12, 54, 0.8) 36%, rgba(10, 1, 71, 0.8) 89%);
+}
+
+.scroll-iron-man-3:hover{
+    background: rgb(50,12,54);
+    background: radial-gradient(circle, rgba(50, 12, 54, 1) 36%, rgba(10, 1, 71, 1) 89%);
+    transition: 0.8s;
+}
+
+.scroll-iron-man-4{
+    background: rgb(64,30,39);
+    background: radial-gradient(circle, rgba(64 ,30 ,39 , 0.6) 27%, rgba(8 ,0 ,59 , 0.8) 96%);
+}
+
+.scroll-iron-man-4:hover{
+    background: rgb(64,30,39);
+    background: radial-gradient(circle, rgba(64 ,30 ,39 , 1) 27%, rgba(8 ,0 ,59 , 1) 96%);
+    transition: 0.8s;
+}
 
 /* end iron man */
