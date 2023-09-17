@@ -15,6 +15,24 @@
     /* #f90f28 */
     --hulk-color: rgb(14, 188, 29);
     /* #0ebc1d */
+    --captain-america-color: rgb(36, 86, 178);
+    /* #2456b2 */
+    --widow-black-color: rgb(216, 169, 18);
+    /* #d8a912 */
+    --hawkeye-color: rgb(99, 17, 108);
+    /* #63116c */
+    --captain-marvel-color:rgb(127, 13, 2);
+    /* #7f0d02 */
+    --ant-man-color:rgb(98, 107, 124);
+    /* #626b7c */
+    --loki-color:rgb(38, 166, 47);
+    /* #26a62f */
+    --vision-color:rgb(58, 20, 31);
+    /* #3a141f */
+    --panther-black-color:rgb(24, 24, 24);
+    /* #181818 */
+    --doctor-strange:rgb(255, 10, 56);
+    /* #ff0a38 */
 }
 
 *{
@@ -137,7 +155,6 @@ main{
 .scroll{
     display: flex;
     flex-direction: column;
-    position: relative;
 }
 
 .scroll img{
@@ -148,25 +165,176 @@ main{
     border-left: 5px solid black;
 }
 
+.scroll-card-iron-man{
+    background-image: url(bg/ironman-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card h2{
+    padding: 50px;
+}
+
 .scroll-card-iron-man:hover{
     border-left: 5px solid var(--ironman-color);
-    box-shadow: inset 44px 0px 29px -12px rgba(249,32,49,1);
+    box-shadow: inset 44px 0px 29px -12px rgba(249, 32, 49, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-thor{
+    background-image: url(bg/thor-card.jpg);
+    background-size: cover;
 }
 
 .scroll-card-thor:hover{
     border-left: 5px solid var(--thor-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(117, 0, 35, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-star-lold{
+    background-image: url(bg/starlord-card.jpg);
+    background-size: cover;
 }
 
 .scroll-card-star-lold:hover{
     border-left: 5px solid var(--star-lord-color-1);
+    box-shadow: inset 44px 0px 29px -12px rgba(228, 94, 49, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-spider-man{
+    background-image: url(bg/spiderman-card.jpg);
+    background-size: cover;
 }
 
 .scroll-card-spider-man:hover{
     border-left: 5px solid var(--spider-man-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(249, 15, 40, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-hulk{
+    background-image: url(bg/hulk-card.jpg);
+    background-size: cover;
 }
 
 .scroll-card-hulk:hover{
     border-left: 5px solid var(--hulk-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(14, 188, 29, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-captain-america{
+    background-image: url(bg/captain-america.jpg);
+    background-size: cover;
+}
+
+.scroll-card-captain-america:hover{
+    border-left: 5px solid var(--captain-america-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(36, 86, 178, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-black-widow{
+    background-image: url(bg/black-widow-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-black-widow:hover{
+    border-left: 5px solid var(--widow-black-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(216, 169, 18, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-hawkeye{
+    background-image: url(bg/hawkeye-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-hawkeye:hover{
+    border-left: 5px solid var(--hawkeye-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(99, 17, 108, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-captain-marvel{
+    background-image: url(bg/captain-marvel.jpg);
+    background-size: cover;
+}
+
+.scroll-card-captain-marvel:hover{
+    border-left: 5px solid var(--captain-marvel-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(127, 13, 2, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-ant-man{
+    background-image: url(bg/ant-man-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-ant-man:hover{
+    border-left: 5px solid var(--ant-man-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(98, 107, 124, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-loki{
+    background-image: url(bg/loki-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-loki:hover{
+    border-left: 5px solid var(--loki-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(38, 166, 47, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-vision{
+    background-image: url(bg/vision-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-vision:hover{
+    border-left: 5px solid var(--vision-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(58, 20, 31, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-black-panther{
+    background-image: url(bg/black-panther-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-black-panther:hover{
+    border-left: 5px solid var(--panther-black-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(24, 24, 24, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-doctor-strange{
+    background-image: url(bg/doctor-strange-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-doctor-strange:hover{
+    border-left: 5px solid var(--doctor-strange);
+    box-shadow: inset 44px 0px 29px -12px rgba(255, 10, 56, 0.6);
+    height: 140px;
+    transition: 0.8s;
 }
 
 .scroll-card a{
@@ -179,7 +347,8 @@ main{
 .scroll-card h2{
     font-weight: 100;
     padding: 10px;
-    margin-top: -52px;
+    font-size: 20px;
+    /* margin-top: -52px; */
     font-family: 'Akatab', sans-serif;
     font-family: 'Inconsolata', monospace;
     font-family: 'Montserrat', sans-serif;
