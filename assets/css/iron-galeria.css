@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@500&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Oswald:wght@400;500;600;700&family=Phudu:wght@300&family=Playfair+Display:wght@400;500&family=Raleway:wght@100&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:wght@300&family=Teko:wght@600&family=Tilt+Prism&family=Ubuntu:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma&display=swap');
+
+
+:root{
+    --text-color-main: rgb(240, 240, 240);
+    --text-color-suppotr: rgba(240, 240, 240, 0.7);
+    /* f0f0f0 */
+    --ironman-color: rgb(249, 32, 49);
+    /* #f92031*/
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: var(--text-color-main);
+}
+
+/* start nav menu */
+
+.menu{
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem 15rem;
+    border-bottom: 1px solid var(--text-color-suppotr);
+    /* position: fixed;
+    top: 0; */
+}
+
+.menu-logo{
+    border-left: 1px solid var(--text-color-suppotr);
+    border-right: 1px solid var(--text-color-suppotr);
+    padding: 10px 15px;
+}
+
+.menu-container img{
+    width: 30px;
+}
+
+.menu-container-1{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.menu-container-2{
+    border-left: 1px solid var(--text-color-suppotr);
+    border-right: 1px solid var(--text-color-suppotr);
+    padding: 18px 15px;
+}
+
+.menu-container a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    font-size: 20px;
+    font-family: 'Michroma', sans-serif;
+}
+
+/* end  nav menu */
+
+main{
+    display: grid;
+    grid-template-columns: 62px 994px 114px;
+    justify-content: center;
+    padding: 68px;
+}
+
+/* start nav social */
+
+.socail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 16px;
+    gap: 1rem; 
+    position: fixed;
+    z-index: 1;
+}
+
+/* end nav social */
+
+
+/* galeria strat */
+
+.galeria{
+    display: grid;
+    grid-template-columns: 331px 331px 331px;
+    margin-top: 10px;
+}
+
+.photo{
+    border: 2px solid var(--text-color-suppotr);
+}
+
+.photo img{
+    width: 327px;
+}
+
+.photo h5{
+    padding: 2px;
+    color: var(--text-color-main);
+    font-size: 18px;
+    font-family: 'Michroma', sans-serif;
+}
+
+/* galeria end */
+
+
+/* scroll-iron start */
+
+.scroll-iron-man{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-iron-man a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    font-family: 'Michroma', sans-serif;
+    letter-spacing: 2px;
+    border-left: 1px solid var(--text-color-suppotr);
+    border-right: 1px solid var(--text-color-suppotr);
+    padding: 30px 39px;
+}
+
+.scroll-iron-man-1{
+    background: rgb(50,12,54);
+    background: radial-gradient(circle, rgba(50, 12, 54, 0.8) 36%, rgba(10, 1, 71, 0.8) 89%);
+}
+
+.scroll-iron-man-1:hover{
+    background: rgb(50,12,54);
+    background: radial-gradient(circle, rgba(50, 12, 54, 1) 36%, rgba(10, 1, 71, 1) 89%);
+    transition: 0.8s;
+}
+
+.scroll-iron-man-2{
+    background: rgb(91,3,150);
+    background: radial-gradient(circle, rgba(55, 2, 90, 0.7) 47%, rgba(15, 1, 117, 0.6) 83%);
+}
+
+.scroll-iron-man-2:hover{
+    background: rgb(91,3,150);
+    background: radial-gradient(circle, rgba(55, 2, 90, 1) 47%, rgba(15, 1, 117, 1) 83%);
+    transition: 0.8s;
+}
+
+.scroll-iron-man-3{
+    background-color: rgba(249, 32, 49, 0.5);
+}
+
+.scroll-iron-man-3:hover{
+    background-color: var(--ironman-color);
+    transition: 0.8s;
+}
+
+.scroll-iron-man-4{
+    background: rgb(64,30,39);
+    background: radial-gradient(circle, rgba(64 ,30 ,39 , 0.6) 27%, rgba(8 ,0 ,59 , 0.8) 96%);
+}
+
+.scroll-iron-man-4:hover{
+    background: rgb(64,30,39);
+    background: radial-gradient(circle, rgba(64 ,30 ,39 , 1) 27%, rgba(8 ,0 ,59 , 1) 96%);
+    transition: 0.8s;
+}
+
+/* scroll-iron end */
