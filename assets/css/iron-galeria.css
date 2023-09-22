@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 :root{
+    --font-main: 'Michroma', sans-serif;
+    --font-support: 'Raleway', sans-serif;
     --text-color-main: rgb(240, 240, 240);
     --text-color-suppotr: rgba(240, 240, 240, 0.7);
     /* f0f0f0 */
@@ -65,7 +67,7 @@ body{
     text-decoration: none;
     color: var(--text-color-main);
     font-size: 20px;
-    font-family: 'Michroma', sans-serif;
+    font-family: var(--font-main);
 }
 
 /* end  nav menu */
@@ -123,7 +125,7 @@ main{
     color: var(--ironman-color);
     background-color: var(--text-color-suppotr);
     font-size: 18px;
-    font-family: 'Michroma', sans-serif;
+    font-family: var(--font-main);
 }
 
 /* galeria end */
@@ -143,7 +145,7 @@ main{
     color: var(--text-color-main);
     writing-mode: vertical-rl;
     font-size: 24px;
-    font-family: 'Michroma', sans-serif;
+    font-family: var(--font-main);
     letter-spacing: 2px;
     border-left: 1px solid var(--text-color-suppotr);
     border-right: 1px solid var(--text-color-suppotr);

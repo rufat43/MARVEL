@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 :root{
+    --font-main: 'Michroma', sans-serif;
+    --font-support: 'Raleway', sans-serif;
     --text-color-main: rgb(240, 240, 240);
     --text-color-suppotr: rgba(240, 240, 240, 0.7);
     /* f0f0f0 */
@@ -91,7 +93,7 @@ body{
     text-decoration: none;
     color: var(--text-color-main);
     font-size: 20px;
-    font-family: 'Michroma', sans-serif;
+    font-family: var(--font-main);
 }
 
 /* end  nav menu */
@@ -144,7 +146,7 @@ main{
     padding: 10px 0;
     margin: auto;
     letter-spacing: 5px;
-    font-family: 'Michroma', sans-serif;
+    font-family: var(--font-main);
     font-weight: 200;
 }
 
@@ -348,7 +350,7 @@ main{
     font-weight: 700;
     padding: 10px;
     font-size: 14px;
-    font-family: 'Michroma', sans-serif;
+    font-family: var(--font-main);
 }
 
 /* end nav scroll */
@@ -394,14 +396,14 @@ main{
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 3px solid var(--ironman-color);
-    font-family: 'Michroma', sans-serif;
+    font-family: var(--font-main);
     width: 355px;
 }
 
 .info-iron-man-1 p{
     font-size: 18px;
     padding-top: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-support);
 }
 
 .info-iron-man-2{
@@ -448,7 +450,7 @@ main{
     color: var(--text-color-main);
     writing-mode: vertical-rl;
     font-size: 24px;
-    font-family: 'Michroma', sans-serif;
+    font-family: var(--font-main);
     letter-spacing: 2px;
     border-left: 1px solid var(--text-color-suppotr);
     border-right: 1px solid var(--text-color-suppotr);
@@ -537,7 +539,7 @@ main{
 .info-thor-1 h1{
     text-transform: uppercase;
     font-size: 40px;
-    font-family: 'Michroma', sans-serif;
+    font-family: var(--font-main);
     font-weight: 100;
     letter-spacing: 3px;
     padding-top: 10px;
@@ -548,7 +550,7 @@ main{
 .info-thor-1 p{
     font-size: 18px;
     padding-top: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-support);
 }
 
 .info-thor-2{
@@ -587,7 +589,7 @@ main{
     color: var(--text-color-main);
     writing-mode: vertical-rl;
     font-size: 24px;
-    font-family: 'Michroma', sans-serif;
+    font-family: var(--font-main);
     letter-spacing: 2px;
     border-left: 1px solid var(--text-color-suppotr);
     border-right: 1px solid var(--text-color-suppotr);
