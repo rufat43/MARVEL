@@ -63,8 +63,6 @@ body{
     align-items: center;
     gap: 12rem 15rem;
     border-bottom: 1px solid var(--text-color-suppotr);
-    /* position: fixed;
-    top: 0; */
 }
 
 .menu-logo{
@@ -407,10 +405,10 @@ main{
 }
 
 .info-iron-man-2{
-    padding: 10px 20px 50px 30px;
+    padding: 0px 20px 50px 30px;
     display: grid;
     grid-template-rows: 100px 100px;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 235px 235px;
     justify-content: center;
     align-items: center;
 }
@@ -422,19 +420,15 @@ main{
     border: 2px solid var(--text-color-suppotr);
 }
 
-.iron-img-1:target{
-    width: 500px;
-}
-
 .iron-img-2{
     grid-column: 1;
-    width: 190px;
+    width: 230px;
     border: 2px solid var(--text-color-suppotr);
 }
 
 .iron-img-3{
     grid-column: 2;
-    width: 190px;
+    width: 230px;
     border: 2px solid var(--text-color-suppotr);
 }
 
@@ -578,7 +572,7 @@ main{
 }
 
 .png-thor img{
-    width: 330px;
+    width: 300px;
 }
 
 .scroll-thor{

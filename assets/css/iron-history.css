@@ -23,8 +23,6 @@ body{
 
 /* start nav menu */
 
-/* start nav menu */
-
 .menu{
     display: flex;
     position: fixed;
@@ -72,7 +70,7 @@ body{
 
 main{
     display: grid;
-    grid-template-columns: 62px 1098px 114px;
+    grid-template-columns: 62px 260px 943px;
     justify-content: center;
     padding: 68px;
 }
@@ -101,32 +99,11 @@ main{
 /* end nav social */
 
 
-/* galeria strat */
+/* history start */
 
-.galeria{
-    display: grid;
-    grid-template-columns: 365px 365px 365px;
-    margin-top: 10px;
-}
 
-.photo{
-    border: 2px solid var(--text-color-suppotr);
-    margin: 2px;
-}
 
-.photo img{
-    width: 356px;
-}
-
-.photo h5{
-    padding: 5px;
-    color: var(--ironman-color);
-    background-color: var(--text-color-suppotr);
-    font-size: 18px;
-    font-family: 'Michroma', sans-serif;
-}
-
-/* galeria end */
+/* history eng */
 
 
 /* scroll-iron start */
@@ -163,22 +140,22 @@ main{
 }
 
 .scroll-iron-man-2{
-    background: rgb(91,3,150);
-    background: radial-gradient(circle, rgba(55, 2, 90, 0.7) 47%, rgba(15, 1, 117, 0.6) 83%);
+    background-color: rgba(249, 32, 49, 0.5);
 }
 
 .scroll-iron-man-2:hover{
-    background: rgb(91,3,150);
-    background: radial-gradient(circle, rgba(55, 2, 90, 1) 47%, rgba(15, 1, 117, 1) 83%);
+    background-color: var(--ironman-color);
     transition: 0.8s;
 }
 
 .scroll-iron-man-3{
-    background-color: rgba(249, 32, 49, 0.5);
+    background: rgb(91,3,150);
+    background: radial-gradient(circle, rgba(55, 2, 90, 0.7) 47%, rgba(15, 1, 117, 0.6) 83%);
 }
 
 .scroll-iron-man-3:hover{
-    background-color: var(--ironman-color);
+    background: rgb(91,3,150);
+    background: radial-gradient(circle, rgba(55, 2, 90, 1) 47%, rgba(15, 1, 117, 1) 83%);
     transition: 0.8s;
 }
 
