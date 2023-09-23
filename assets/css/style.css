@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@500&family=Inconsolata:wght@500&family=Montserrat:wght@200&family=Oswald:wght@400;500;600;700&family=Phudu:wght@300&family=Playfair+Display:wght@400;500&family=Raleway:wght@100&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:wght@300&family=Teko:wght@600&family=Tilt+Prism&family=Ubuntu:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
@@ -36,8 +35,22 @@
     /* #3a141f */
     --panther-black-color:rgb(24, 24, 24);
     /* #181818 */
-    --doctor-strange:rgb(255, 10, 56);
+    --doctor-strange-color:rgb(255, 10, 56);
     /* #ff0a38 */
+    --wasp-color:rgb(200, 180, 66);
+    /* #c8b442 */
+    --shang-chi-color:rgb(53, 7, 7);
+    /* #350707 */
+    --groot-color:rgb(124, 225, 69);
+    /* #7ce145 */
+    --rocket-color:rgb(130, 100, 50);
+    /* #463e31 */
+    --gamora-colot:rgb(58, 87, 88);
+    /* #3a5758 */
+    --drax-color:rgb(86, 51, 54);
+    /* #563336 */
+    --nebula-color:rgb(140, 220, 225);
+    /* #aaf8ff */
 }
 
 *{
@@ -170,10 +183,6 @@ main{
 .scroll-card-iron-man{
     background-image: url(bg/ironman-card.jpg);
     background-size: cover;
-}
-
-.scroll-card h2{
-    padding: 50px;
 }
 
 .scroll-card-iron-man:hover{
@@ -333,8 +342,92 @@ main{
 }
 
 .scroll-card-doctor-strange:hover{
-    border-left: 5px solid var(--doctor-strange);
-    box-shadow: inset 44px 0px 29px -12px rgba(255, 10, 56, 0.6);
+    border-left: 5px solid var(--doctor-strange-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(255, 10, 56, 0.5);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-wasp{
+    background-image: url(bg/wasp-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-wasp:hover{
+    border-left: 5px solid var(--wasp-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(200, 180, 66, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-shang-chi{
+    background-image: url(bg/shang-chi-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-shang-chi:hover{
+    border-left: 5px solid var(--shang-chi-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(53, 7, 7, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-groot{
+    background-image: url(bg/groot-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-groot:hover{
+    border-left: 5px solid var(--groot-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(124, 225, 66, 0.4);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-rocket{
+    background-image: url(bg/rocket-card.png);
+    background-size: cover;
+}
+
+.scroll-card-rocket:hover{
+    border-left: 5px solid var(--rocket-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(130, 100, 50, 0.8);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-gamora{
+    background-image: url(bg/gamora-card.png);
+    background-size: cover;
+}
+
+.scroll-card-gamora:hover{
+    border-left: 5px solid var(--gamora-colot);
+    box-shadow: inset 44px 0px 29px -12px rgba(58, 87, 88, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-drax{
+    background-image: url(bg/drax-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-drax:hover{
+    border-left: 5px solid var(--drax-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(86, 51, 54, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-nebula{
+    background-image: url(bg/nebula-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-nebula:hover{
+    border-left: 5px solid var(--nebula-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(140, 220, 225, 0.4);
     height: 140px;
     transition: 0.8s;
 }
@@ -348,7 +441,7 @@ main{
 
 .scroll-card h2{
     font-weight: 700;
-    padding: 10px;
+    padding: 15px 10px;
     font-size: 14px;
     font-family: var(--font-main);
 }
