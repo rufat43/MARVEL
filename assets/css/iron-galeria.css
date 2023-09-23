@@ -106,8 +106,7 @@ main{
 
 .galeria{
     display: grid;
-    grid-template-columns: 365px 365px 365px;
-    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .photo{
@@ -116,7 +115,7 @@ main{
 }
 
 .photo img{
-    width: 356px;
+    width: 100%;
 }
 
 .photo h5{
