@@ -36,7 +36,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 12rem 15rem;
+    gap: 10rem 14rem;
     border-bottom: 1px solid var(--text-color-suppotr);
 }
 
@@ -73,7 +73,7 @@ body{
 
 main{
     display: grid;
-    grid-template-columns: 62px 1098px 114px;
+    grid-template-columns: 62px 1102px 114px;
     justify-content: center;
     padding: 68px;
 }
