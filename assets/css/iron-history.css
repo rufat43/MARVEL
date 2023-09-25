@@ -101,10 +101,7 @@ main{
 
 
 /* history start */
-
-.blok{
-
-}
+/* card-1 start */
 
 .card-1{
     display: grid;
@@ -179,6 +176,41 @@ main{
     width: 26px;
 }
 
+.info h1{
+    font-family: var(--font-main);
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+.info p{
+    font-family: var(--font-support);
+    font-size: 20px;
+    padding-bottom: 16px;
+    padding-right: 10px;
+
+}
+
+.info a{
+    text-decoration: none;
+    color: var(--ironman-color);
+}
+
+.quotes-1{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.quotes-1 p{
+    padding: 5px;
+}
+
+/* card-1 end */
+/* card-2 start */
+
+
+
+/* card-2 end */
 /* history eng */
 
 
