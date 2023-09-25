@@ -100,6 +100,20 @@ main{
 
 /* history start */
 
+.blok{
+
+}
+
+.card-1{
+    display: grid;
+    grid-template-columns: 700px auto;
+}
+
+.container{
+    border: 1px solid var(--text-color-suppotr);
+    padding: 5px;
+}
+
 .flag{
     width: 26px;
 }
