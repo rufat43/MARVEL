@@ -20,6 +20,10 @@
 body{
     background-color: black;
     color: var(--text-color-main);
+    background-image: url(ironman-bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 /* start nav menu */
@@ -82,7 +86,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: black;
 }
 
 .social-container{
@@ -90,11 +93,8 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
     padding: 16px;
     gap: 1rem; 
-    position: fixed;
-    z-index: 1;
 }
 
 /* end nav social */
@@ -152,15 +152,15 @@ main{
     width: 140px;
     font-size: 14px;
     text-align: start;
-    border-top: 1px  solid var(--text-color-suppotr);;
-    border-bottom: 1px  solid var(--text-color-suppotr);;
+    border-top: 1px  solid var(--text-color-suppotr);
+    border-bottom: 1px  solid var(--text-color-suppotr);
 }
 
 .container td{
     font-size: 14px;
     text-align: start;
-    border-top: 1px  solid var(--text-color-suppotr);;
-    border-bottom: 1px  solid var(--text-color-suppotr);;
+    border-top: 1px  solid var(--text-color-suppotr);
+    border-bottom: 1px  solid var(--text-color-suppotr);
 }
 
 .container li{
@@ -199,10 +199,60 @@ main{
 .quotes-1{
     display: grid;
     grid-template-columns: auto auto;
+    border: 1px solid var(--text-color-suppotr);
+    margin: 8px;
+    padding: 10px;
 }
 
 .quotes-1 p{
-    padding: 5px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quotes-p-2{
+    text-align: right;
+}
+
+.quotes-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid var(--text-color-suppotr);
+    margin: 8px;
+    padding: 10px;
+}
+
+.quotes-2 p{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quotes-2 img{
+    width: 320px;
+}
+
+.quotes-3{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid var(--text-color-suppotr);
+    margin: 8px 8px 0 8px; 
+    padding: 10px;
+}
+
+.quotes-3 p{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quotes-p-3{
+    text-align: right;
+}
+
+.quotes-3 img{
+    width: 320px;
+    padding-top: 30px;
 }
 
 /* card-1 end */
