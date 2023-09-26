@@ -262,21 +262,21 @@ main{
 
 .biography h2{
     font-family: var(--font-main);
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
     padding: 20px 20px 10px 20px;
 }
 
 .biography h3{
     font-family: var(--font-main);
-    font-size: 22px;
+    font-size: 24px;
     text-align: start;
     padding: 0 10px 10px 10px;
 }
 
 .biography p{
     font-family: var(--font-support);
-    font-size: 18px;
+    font-size: 20px;
     text-align: start;
     margin-bottom: 10px;
 }
@@ -284,6 +284,30 @@ main{
 .biography p a{
     text-decoration: none;
     color: var(--ironman-color);
+}
+
+.fans-1 p{
+    font-family: var(--font-support);
+    font-size: 20px;
+}
+
+.fans-card-1 img{
+    width: 300px;
+    float: left;
+}
+
+.fans-img-1{
+    width: 310px;
+    float: left;
+    border: 1px solid var(--text-color-suppotr);
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.fans-img-1 h6{
+    font-size: 12px;
+    font-family: var(--font-main);
+    padding-top: 5px;
 }
 
 /* card-2 end */
