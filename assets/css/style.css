@@ -31,6 +31,8 @@
     /* #626b7c */
     --loki-color:rgb(38, 166, 47);
     /* #26a62f */
+    --wanda-color: rgb(252, 9, 41);
+    /* #fc0929 */
     --vision-color:rgb(58, 20, 31);
     /* #3a141f */
     --panther-black-color:rgb(24, 24, 24);
@@ -51,6 +53,10 @@
     /* #563336 */
     --nebula-color:rgb(140, 220, 225);
     /* #aaf8ff */
+    --bucky-barnes-color:rgb(181, 189, 192);
+    /* #b5bdc0 */
+    --falcon-color:rgb(78, 102, 162);
+    /* #4e66a2 */
 }
 
 *{
@@ -312,6 +318,18 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-wanda{
+    background-image: url(bg/wanda-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-wanda:hover{
+    border-left: 5px solid var(--wanda-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(252, 9, 41, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
 .scroll-card-vision{
     background-image: url(bg/vision-card.jpg);
     background-size: cover;
@@ -428,6 +446,30 @@ main{
 .scroll-card-nebula:hover{
     border-left: 5px solid var(--nebula-color);
     box-shadow: inset 44px 0px 29px -12px rgba(140, 220, 225, 0.4);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-bucky-barnes{
+    background-image: url(bg/bucky-barnes-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-bucky-barnes:hover{
+    border-left: 5px solid var(--bucky-barnes-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(181, 189, 192, 0.4);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-falcon{
+    background-image: url(bg/faicon-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-falcon:hover{
+    border-left: 5px solid var(--falcon-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(78, 102, 162, 0.4);
     height: 140px;
     transition: 0.8s;
 }

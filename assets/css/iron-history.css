@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
 
 :root{
     --font-main: 'Michroma', sans-serif;
-    --font-support: 'Raleway', sans-serif;
+    --font-support: 'Dosis', sans-serif;
     --text-color-main: rgb(240, 240, 240);
     --text-color-suppotr: rgba(240, 240, 240, 0.7);
     /* f0f0f0 */
@@ -202,6 +203,7 @@ main{
     border: 1px solid var(--text-color-suppotr);
     margin: 8px;
     padding: 10px;
+    margin-top: 40px;
 }
 
 .quotes-1 p{
@@ -258,7 +260,31 @@ main{
 /* card-1 end */
 /* card-2 start */
 
+.biography h2{
+    font-family: var(--font-main);
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+}
 
+.biography h3{
+    font-family: var(--font-main);
+    font-size: 22px;
+    text-align: start;
+    padding: 0 10px 10px 10px;
+}
+
+.biography p{
+    font-family: var(--font-support);
+    font-size: 18px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.biography p a{
+    text-decoration: none;
+    color: var(--ironman-color);
+}
 
 /* card-2 end */
 /* history eng */
