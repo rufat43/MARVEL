@@ -160,7 +160,9 @@ main{
 .modal-content {
     position: relative;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 950px auto;
+    justify-content: center;
+    /* align-items: center; */
     background-clip: padding-box;
 }
 
@@ -171,12 +173,20 @@ main{
     font-weight: 700;
     color: var(--ironman-color);
     text-decoration: none;
+    border: 3px solid var(--text-color-main);
+    background-color: var(--text-color-suppotr);
+    padding: 3px 12px;
+    border-radius: 5px;
 }
 /* Стили для закрывающей кнопки в фокусе или наведении */
 .close:focus, .close:hover {
     color: var(--ironman-color);
     text-decoration: none;
     cursor: pointer;
+}
+
+.modal-header{
+    margin-top: 70px;
 }
 /* Стили блока основного содержимого окна */
 .modal-body {
@@ -193,6 +203,8 @@ main{
 .modal-body img{
     border: 10px solid var(--text-color-main);
     width: 900px;
+    max-height: 600px;
+
 }
 
 /* galeria end */
