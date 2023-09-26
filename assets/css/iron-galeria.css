@@ -20,6 +20,9 @@
 body{
     background-color: black;
     color: var(--text-color-main);
+    background-image: url(ironman-bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* start nav menu */
