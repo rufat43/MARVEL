@@ -105,6 +105,34 @@ main{
 /* end nav social */
 /* movies start */
 
+.movies{
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.movies-card-2 h1{
+    font-family: var(--font-main);
+    font-size: 30px;
+    padding: 20px;
+}
+
+.trailer{
+    border: 2px dashed var(--text-color-main);
+    padding: 5px;
+}
+
+.trailer h2{
+    font-family: var(--font-support);
+    font-size: 20px;
+    padding: 10px;
+    background-color: var(--text-color-suppotr);
+    color: var(--ironman-color);
+    font-weight: 900;
+}
 
 
 /* movies end */
@@ -153,23 +181,22 @@ main{
 }
 
 .scroll-iron-man-3{
-    background-color: rgba(249, 32, 49, 0.5);
-}
-
-.scroll-iron-man-3:hover{
-    background-color: var(--ironman-color);
-    transition: 0.8s;
-}
-
-.scroll-iron-man-4{
     background: rgb(64,30,39);
     background: radial-gradient(circle, rgba(64 ,30 ,39 , 0.6) 27%, rgba(8 ,0 ,59 , 0.8) 96%);
 }
 
-.scroll-iron-man-4:hover{
+.scroll-iron-man-3:hover{
     background: rgb(64,30,39);
     background: radial-gradient(circle, rgba(64 ,30 ,39 , 1) 27%, rgba(8 ,0 ,59 , 1) 96%);
     transition: 0.8s;
 }
 
+.scroll-iron-man-4{
+    background-color: rgba(249, 32, 49, 0.5);
+}
+
+.scroll-iron-man-4:hover{
+    background-color: var(--ironman-color);
+    transition: 0.8s;
+}
 /* scroll-iron end */
