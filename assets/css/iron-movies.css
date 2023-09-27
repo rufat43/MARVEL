@@ -107,22 +107,31 @@ main{
 
 .movies{
     display: grid;
-    grid-template-columns: 200px auto 200px;
+    grid-template-columns: 220px auto 220px;
     justify-content: center;
-    align-items: center;
 }
 
+.movies-card-1{
+    display: grid;
+    text-align: center;
+    margin-top: 5.1rem;
+}
 
+.movies-card-1 img{
+    width: 180px;
+}
 
 .movies-card-2 h1{
     font-family: var(--font-main);
     font-size: 30px;
     padding: 20px;
+    width: 500px;
 }
 
 .trailer{
     border: 2px dashed var(--text-color-main);
     padding: 5px;
+    margin-bottom: 10px;
 }
 
 .trailer h2{
