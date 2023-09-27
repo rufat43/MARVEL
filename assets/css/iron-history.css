@@ -271,7 +271,7 @@ main{
     font-family: var(--font-main);
     font-size: 24px;
     text-align: start;
-    padding: 0 10px 10px 10px;
+    padding: 0 10px 10px 30px;
 }
 
 .biography p{
@@ -279,6 +279,7 @@ main{
     font-size: 20px;
     text-align: start;
     margin-bottom: 10px;
+    padding-left: 5px;
 }
 
 .biography p a{
@@ -286,18 +287,17 @@ main{
     color: var(--ironman-color);
 }
 
-.fans-1 p{
+.fans-card p{
     font-family: var(--font-support);
     font-size: 20px;
 }
 
-.fans-card-1 img{
+.fans-card img{
     width: 300px;
-    float: left;
 }
 
 .fans-img-1{
-    width: 310px;
+    width: 314px;
     float: left;
     border: 1px solid var(--text-color-suppotr);
     padding: 5px;
@@ -308,6 +308,69 @@ main{
     font-size: 12px;
     font-family: var(--font-main);
     padding-top: 5px;
+}
+
+.fans-img-2{
+    width: 314px;
+    float: right;
+    border: 1px solid var(--text-color-suppotr);
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.fans-img-2 h6{
+    font-size: 12px;
+    font-family: var(--font-main);
+    padding-top: 5px;
+}
+
+/* 4 злодея */
+
+.fans-card-2 p{
+    font-family: var(--font-support);
+    font-size: 20px;
+}
+
+.fans-card-2 img{
+    width: 200px;  
+}
+
+.fans-img-3{
+    width: 214px;
+    border: 1px solid var(--text-color-suppotr);
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.fans-img-3 h6{
+    font-size: 12px;
+    font-family: var(--font-main);
+    padding-top: 5px;
+}
+
+.fans-flex-1{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.fans-img-4{
+    width: 214px;
+    border: 1px solid var(--text-color-suppotr);
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.fans-img-4 h6{
+    font-size: 12px;
+    font-family: var(--font-main);
+    padding-top: 5px;
+}
+
+.fans-flex-2{
+    display: flex;
+    flex-direction: column;
+    float: right;
 }
 
 /* card-2 end */
