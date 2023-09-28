@@ -535,7 +535,7 @@ main{
 /* start iron mam */
 
 .ironman{
-    background-image: url(ironman-bg.jpg);
+    background-image: url(bg/bg/ironman-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -677,16 +677,15 @@ main{
 }
 
 /* end iron man */
-
 /* start thor */
 
 .thor{
-    background-image: url(thor-bg.png);
+    background-image: url(bg/bg/thor-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     display: grid;
-    grid-template-columns: 834px 114px;
+    grid-template-columns: 840px 114px;
 }
 
 .container-thor{
@@ -750,8 +749,37 @@ main{
     margin-bottom: 30px;
 }
 
+.info-thor-2{
+    padding: 0px 20px 50px 30px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor-img-1{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    width: 230px;
+    border: 2px solid var(--text-color-suppotr);
+}
+
+.thor-img-2{
+    grid-column: 1;
+    width: 230px;
+    border: 2px solid var(--text-color-suppotr);
+}
+
+.thor-img-3{
+    grid-column: 2;
+    width: 230px;
+    border: 2px solid var(--text-color-suppotr);
+}
+
 .png-thor img{
-    width: 300px;
+    width: 280px;
+    margin-top: 78px;
 }
 
 .scroll-thor{
