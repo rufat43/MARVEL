@@ -40,6 +40,7 @@ body{
     align-items: center;
     gap: 12rem 15rem;
     border-bottom: 1px solid var(--text-color-suppotr);
+    background-color: black;
 }
 
 .menu-logo{
@@ -100,7 +101,162 @@ main{
 /* end nav social */
 /* history start */
 
+/* card-1 start */
 
+.card-1{
+    display: grid;
+    grid-template-columns: 700px auto;
+}
+
+.container{
+    border: 1px solid var(--text-color-suppotr);
+    padding: 5px;
+    color: var(--text-color-main);
+    font-family: var(--font-main);
+}
+
+.container h3{
+    text-align: center;
+    font-size: 18px;
+}
+
+.container h4{
+    text-align: center;
+    font-size: 12px;
+}
+
+.img{
+    text-align: center;
+    padding: 5px 0;
+}
+
+.container h5{
+    font-size: 12px;
+}
+
+.container h5 a{
+    text-decoration: none;
+    color: var(--thor-color);
+}
+
+.container h6{
+    font-size: 14px;
+    color: var(--thor-color);
+    border-top: 1px  solid var(--text-color-suppotr);
+    background-color: var(--text-color-suppotr);
+    text-align: center;
+    padding: 3px 0;
+}
+
+.container th{
+    width: 140px;
+    font-size: 14px;
+    text-align: start;
+    border-top: 1px  solid var(--text-color-suppotr);
+    border-bottom: 1px  solid var(--text-color-suppotr);
+}
+
+.container td{
+    font-size: 14px;
+    text-align: start;
+    border-top: 1px  solid var(--text-color-suppotr);
+    border-bottom: 1px  solid var(--text-color-suppotr);
+}
+
+.container li{
+    list-style: none;
+}
+
+.container a{
+    text-decoration: none;
+    color: var(--thor-color);
+}
+
+.flag{
+    width: 26px;
+}
+
+.info h1{
+    font-family: var(--font-main);
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+}
+
+.info p{
+    font-family: var(--font-support);
+    font-size: 20px;
+    padding-bottom: 16px;
+    padding-right: 10px;
+
+}
+
+.info a{
+    text-decoration: none;
+    color: var(--thor-color);
+}
+
+.quotes-1{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid var(--text-color-suppotr);
+    margin: 8px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.quotes-1 p{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quotes-p-2{
+    text-align: right;
+}
+
+.quotes-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid var(--text-color-suppotr);
+    margin: 8px;
+    padding: 10px;
+}
+
+.quotes-2 p{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quotes-2 img{
+    width: 320px;
+}
+
+.quotes-3{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid var(--text-color-suppotr);
+    margin: 8px 8px 0 8px; 
+    padding: 10px;
+}
+
+.quotes-3 p{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quotes-p-3{
+    text-align: right;
+}
+
+.quotes-3 img{
+    width: 320px;
+    padding-top: 30px;
+}
+
+/* card-1 end */
 
 /* history end */
 /* scroll start */
