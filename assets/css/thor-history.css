@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+
+:root{
+    --font-main: 'Michroma', sans-serif;
+    --font-support: 'Dosis', sans-serif;
+    --text-color-main: rgb(240, 240, 240);
+    --text-color-suppotr: rgba(240, 240, 240, 0.7);
+    /* f0f0f0 */
+    --thor-color: rgb(117, 0, 35);
+    /* #ab0033 */
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: var(--text-color-main);
+    background-image: url(bg/bg/thor-bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/* start nav menu */
+
+.menu{
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem 15rem;
+    border-bottom: 1px solid var(--text-color-suppotr);
+}
+
+.menu-logo{
+    border-left: 1px solid var(--text-color-suppotr);
+    border-right: 1px solid var(--text-color-suppotr);
+    padding: 10px 15px;
+}
+
+.menu-container img{
+    width: 30px;
+}
+
+.menu-container-1{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.menu-container-2{
+    border-left: 1px solid var(--text-color-suppotr);
+    border-right: 1px solid var(--text-color-suppotr);
+    padding: 18px 15px;
+}
+
+.menu-container a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    font-size: 20px;
+    font-family: 'Michroma', sans-serif;
+}
+
+/* end  nav menu */
+
+main{
+    display: grid;
+    grid-template-columns: 62px 1102px 114px;
+    justify-content: center;
+    padding: 68px;
+}
+
+/* start nav social */
+
+.socail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 1rem; 
+}
+
+/* end nav social */
+/* history start */
+
+
+
+/* history end */
+/* scroll start */
+
+.scroll-thor{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-thor a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    font-family: var(--font-main);
+    letter-spacing: 2px;
+    border-left: 1px solid var(--text-color-suppotr);
+    border-right: 1px solid var(--text-color-suppotr);
+    border-bottom: 1px solid var(--text-color-suppotr);
+    padding: 30px 39px;
+}
+
+.scroll-thor-1{
+    background: rgb(60,65,65);
+    background: radial-gradient(circle, rgba(60,65,65,0.7) 12%, rgba(2,22,47,0.7) 93%);
+}
+
+.scroll-thor-1:hover{
+    background: rgb(60,65,65);
+    background: radial-gradient(circle, rgba(60,65,65,1) 12%, rgba(2,22,47,1) 93%);
+    transition: 0.8s;
+}
+
+.scroll-thor-2{
+    background-color: rgba(117, 0, 35, 0.5);
+}
+
+.scroll-thor-2:hover{
+    background-color: var(--thor-color);
+    transition: 0.8s;
+}
+
+.scroll-thor-3{
+    background: rgb(72,82,82);
+    background: radial-gradient(circle, rgba(72,82,82,0.7) 16%, rgba(5,34,60,0.7) 69%);
+}
+
+.scroll-thor-3:hover{
+    background: rgb(72,82,82);
+    background: radial-gradient(circle, rgba(72,82,82,1) 16%, rgba(5,34,60,1) 69%);
+    transition: 0.8s;
+}
+
+.scroll-thor-4{
+    background: rgb(52,54,54);
+    background: radial-gradient(circle, rgba(52,54,54,0.7) 34%, rgba(0,21,31,0.7) 81%);
+}
+
+.scroll-thorn-4:hover{
+    background: rgb(52,54,54);
+    background: radial-gradient(circle, rgba(52,54,54,1) 34%, rgba(0,21,31,1) 81%);
+    transition: 0.8s;
+}
+
+/* scroll end */
