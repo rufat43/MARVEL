@@ -51,6 +51,8 @@
     /* #3a5758 */
     --drax-color:rgb(86, 51, 54);
     /* #563336 */
+    --mantis-color:rgb(120, 153, 75);
+    /* #78994b */
     --nebula-color:rgb(140, 220, 225);
     /* #aaf8ff */
     --bucky-barnes-color:rgb(181, 189, 192);
@@ -450,6 +452,18 @@ main{
 .scroll-card-drax:hover{
     border-left: 5px solid var(--drax-color);
     box-shadow: inset 44px 0px 29px -12px rgba(86, 51, 54, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-mantis{
+    background-image: url(bg/mantis-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-mantis:hover{
+    border-left: 5px solid var(--mantis-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(120, 153, 75, 0.6);
     height: 140px;
     transition: 0.8s;
 }
