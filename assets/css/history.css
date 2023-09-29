@@ -289,6 +289,10 @@ main{
     font-weight: 700;
 }
 
+.quotes-1 img{
+    width: 320px;
+}
+
 .quotes-p-2{
     text-align: right;
 }

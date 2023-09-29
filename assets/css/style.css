@@ -67,6 +67,12 @@
     /* #232827 */
     --mighty-thor-color:rgb(217, 220, 227);
     /* #d9dce3 */
+    --odin-color:rgb(243, 231, 194);
+    /* #f3e7c2 */
+    --thanos-color:rgb(106, 61, 100);
+    /* #6a3d64 */
+    --valkyrie-color:rgb(155, 167, 161);
+    /* #9ba7a1 */
 }
 
 *{
@@ -527,10 +533,11 @@ main{
 
 .scroll-card-hela:hover{
     border-left: 5px solid var(--hela-color);
-    box-shadow: inset 44px 0px 29px -12px rgba(435, 40, 39, 0.6);
+    box-shadow: inset 44px 0px 29px -12px rgba(35, 40, 39, 0.6);
     height: 140px;
     transition: 0.8s;
 }
+
 .scroll-card-mighty-thor{
     background-image: url(bg/mighty-thor-card.jpg);
     background-size: cover;
@@ -538,7 +545,43 @@ main{
 
 .scroll-card-mighty-thor:hover{
     border-left: 5px solid var(--mighty-thor-color);
-    box-shadow: inset 44px 0px 29px -12px rgba(435, 40, 39, 0.6);
+    box-shadow: inset 44px 0px 29px -12px rgba(217, 220, 227, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-odin{
+    background-image: url(bg/odin-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-odin:hover{
+    border-left: 5px solid var(--odin-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(243, 231, 194, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-thanos{
+    background-image: url(bg/thanos-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-thanos:hover{
+    border-left: 5px solid var(--thanos-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(106, 61, 100, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-valkyrie{
+    background-image: url(bg/valkyrie-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-valkyrie:hover{
+    border-left: 5px solid var(--valkyrie-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(155, 167, 161, 0.6);
     height: 140px;
     transition: 0.8s;
 }
