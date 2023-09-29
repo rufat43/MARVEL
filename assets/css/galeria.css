@@ -343,6 +343,7 @@ main{
     letter-spacing: 2px;
     border-left: 1px solid var(--text-color-suppotr);
     border-right: 1px solid var(--text-color-suppotr);
+    border-bottom: 1px solid var(--text-color-suppotr);
     padding: 30px 39px;
 }
 
