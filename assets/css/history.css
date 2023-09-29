@@ -1,15 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 :root{
     --font-main: 'Michroma', sans-serif;
-    --font-support: 'Dosis', sans-serif;
+    --font-support: 'Raleway', sans-serif;
     --text-color-main: rgb(240, 240, 240);
     --text-color-suppotr: rgba(240, 240, 240, 0.7);
     /* f0f0f0 */
     --ironman-color: rgb(249, 32, 49);
     /* #f92031*/
+    --thor-color: rgb(117, 0, 35);
+    /* #ab0033 */
+    --star-lord-color-1: rgb(228, 94, 49);
+    /* #e45e31 */
+    --star-lord-color-2: rgb(124, 47, 189);
+    /* #7c2fbd */
+    --spider-man-color: rgb(249, 15, 40);
+    /* #f90f28 */
+    --hulk-color: rgb(14, 188, 29);
+    /* #0ebc1d */
+    --captain-america-color: rgb(36, 86, 178);
+    /* #2456b2 */
+    --widow-black-color: rgb(216, 169, 18);
+    /* #d8a912 */
+    --hawkeye-color: rgb(99, 17, 108);
+    /* #63116c */
+    --captain-marvel-color:rgb(127, 13, 2);
+    /* #7f0d02 */
+    --ant-man-color:rgb(98, 107, 124);
+    /* #626b7c */
+    --loki-color:rgb(38, 166, 47);
+    /* #26a62f */
+    --wanda-color: rgb(252, 9, 41);
+    /* #fc0929 */
+    --vision-color:rgb(58, 20, 31);
+    /* #3a141f */
+    --panther-black-color:rgb(24, 24, 24);
+    /* #181818 */
+    --doctor-strange-color:rgb(255, 10, 56);
+    /* #ff0a38 */
+    --wasp-color:rgb(200, 180, 66);
+    /* #c8b442 */
+    --shang-chi-color:rgb(53, 7, 7);
+    /* #350707 */
+    --groot-color:rgb(124, 225, 69);
+    /* #7ce145 */
+    --rocket-color:rgb(130, 100, 50);
+    /* #463e31 */
+    --gamora-colot:rgb(58, 87, 88);
+    /* #3a5758 */
+    --drax-color:rgb(86, 51, 54);
+    /* #563336 */
+    --nebula-color:rgb(140, 220, 225);
+    /* #aaf8ff */
+    --bucky-barnes-color:rgb(181, 189, 192);
+    /* #b5bdc0 */
+    --falcon-color:rgb(78, 102, 162);
+    /* #4e66a2 */
+    --war-machine-color:rgb(33, 33, 33);
+    /* #212121 */
+    --wong-color:rgb(220, 67, 49);
+    /* #dc4331 */
+    --mysterio-color:rgb(46, 98, 62);
+    /* #2e623e */
 }
 
 *{
@@ -39,7 +92,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 12rem 15rem;
+    gap: 10rem 14rem;
     border-bottom: 1px solid var(--text-color-suppotr);
 }
 
@@ -140,9 +193,23 @@ main{
     color: var(--ironman-color);
 }
 
+.container h5 .thor-a {
+    text-decoration: none;
+    color: var(--thor-color); 
+}
+
 .container h6{
     font-size: 14px;
     color: var(--ironman-color);
+    border-top: 1px  solid var(--text-color-suppotr);
+    background-color: var(--text-color-suppotr);
+    text-align: center;
+    padding: 3px 0;
+}
+
+.container .thor-h6{
+    font-size: 14px;
+    color: var(--thor-color);
     border-top: 1px  solid var(--text-color-suppotr);
     background-color: var(--text-color-suppotr);
     text-align: center;
@@ -173,6 +240,11 @@ main{
     color: var(--ironman-color);
 }
 
+.container .thor-a{
+    text-decoration: none;
+    color: var(--thor-color);
+}
+
 .flag{
     width: 26px;
 }
@@ -195,6 +267,11 @@ main{
 .info a{
     text-decoration: none;
     color: var(--ironman-color);
+}
+
+.info .thor-a{
+    text-decoration: none;
+    color: var(--thor-color);
 }
 
 .quotes-1{
@@ -285,6 +362,11 @@ main{
 .biography p a{
     text-decoration: none;
     color: var(--ironman-color);
+}
+
+.biography p .thor-a{
+    text-decoration: none;
+    color: var(--thor-color);
 }
 
 .fans-card p{
@@ -442,3 +524,68 @@ main{
 }
 
 /* scroll-iron end */
+/* scroll thor start */
+
+.scroll-thor{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-thor a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    font-family: var(--font-main);
+    letter-spacing: 2px;
+    border-left: 1px solid var(--text-color-suppotr);
+    border-right: 1px solid var(--text-color-suppotr);
+    border-bottom: 1px solid var(--text-color-suppotr);
+    padding: 30px 39px;
+}
+
+.scroll-thor-1{
+    background-color: rgba(117, 0, 35, 0.5);
+}
+
+.scroll-thor-1:hover{
+    background-color: var(--thor-color);
+    transition: 0.8s;
+}
+
+.scroll-thor-2{
+    background: rgb(60,65,65);
+    background: radial-gradient(circle, rgba(60,65,65,0.7) 12%, rgba(2,22,47,0.7) 93%);
+}
+
+.scroll-thor-2:hover{
+    background: rgb(60,65,65);
+    background: radial-gradient(circle, rgba(60,65,65,1) 12%, rgba(2,22,47,1) 93%);
+    transition: 0.8s;
+}
+
+.scroll-thor-3{
+    background: rgb(72,82,82);
+    background: radial-gradient(circle, rgba(72,82,82,0.7) 16%, rgba(5,34,60,0.7) 69%);
+}
+
+.scroll-thor-3:hover{
+    background: rgb(72,82,82);
+    background: radial-gradient(circle, rgba(72,82,82,1) 16%, rgba(5,34,60,1) 69%);
+    transition: 0.8s;
+}
+
+.scroll-thor-4{
+    background: rgb(52,54,54);
+    background: radial-gradient(circle, rgba(52,54,54,0.7) 34%, rgba(0,21,31,0.7) 81%);
+}
+
+.scroll-thorn-4:hover{
+    background: rgb(52,54,54);
+    background: radial-gradient(circle, rgba(52,54,54,1) 34%, rgba(0,21,31,1) 81%);
+    transition: 0.8s;
+}
+
+/* scroll thor end */
