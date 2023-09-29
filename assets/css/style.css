@@ -65,6 +65,10 @@
     /* #dc4331 */
     --mysterio-color:rgb(46, 98, 62);
     /* #2e623e */
+    --otto-octavius-color:rgb(55, 140, 72);
+    /* #378c48 */
+    --green-goblin-color:rgb(40, 54, 36);
+    /* #283624 */
     --hela-color:rgb(35, 40, 39);
     /* #232827 */
     --mighty-thor-color:rgb(217, 220, 227);
@@ -75,6 +79,8 @@
     /* #6a3d64 */
     --valkyrie-color:rgb(155, 167, 161);
     /* #9ba7a1 */
+    --daredevil-color:rgb(60, 39, 56);
+    /* #3c2738 */
 }
 
 *{
@@ -540,6 +546,30 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-otto-octavius{
+    background-image: url(bg/otto-octavius-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-otto-octavius:hover{
+    border-left: 5px solid var(--otto-octavius-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(55, 140, 72, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-green-goblin{
+    background-image: url(bg/green-goblin-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-green-goblin:hover{
+    border-left: 5px solid var(--green-goblin-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(40, 54, 36, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
 .scroll-card-hela{
     background-image: url(bg/hela-card.jpg);
     background-size: cover;
@@ -596,6 +626,18 @@ main{
 .scroll-card-valkyrie:hover{
     border-left: 5px solid var(--valkyrie-color);
     box-shadow: inset 44px 0px 29px -12px rgba(155, 167, 161, 0.6);
+    height: 140px;
+    transition: 0.8s;
+}
+
+.scroll-card-daredevil{
+    background-image: url(bg/daredevil-card.jpg);
+    background-size: cover;
+}
+
+.scroll-card-daredevile:hover{
+    border-left: 5px solid var(--daredevil-color);
+    box-shadow: inset 44px 0px 29px -12px rgba(60, 39, 56, 0.6);
     height: 140px;
     transition: 0.8s;
 }
@@ -928,3 +970,150 @@ main{
 }
 
 /* end thor */
+
+/* start spiderman */
+
+.spiderman{
+    background-image: url(bg/bg/ironman-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 840px 114px;
+}
+
+.container-spider-man{
+    display: grid;
+    grid-column: auto auto;
+}
+
+.spider-man-1 {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.spider-man-1{
+    grid-row: 1;
+}
+
+.spider-man-1{
+    grid-row: 1;
+}
+
+.info-spider-man-1{
+    padding: 50px 20px 30px 30px;
+}
+
+.info-spider-man-1 h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--ironman-color);
+    font-family: var(--font-main);
+}
+
+.info-spider-man-1 p{
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: var(--font-support);
+}
+
+.info-spider-man-2{
+    padding: 0px 20px 50px 30px;
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 235px 235px;
+    justify-content: center;
+    align-items: center;
+}
+
+.spider-man-img-1{
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    width: 270px;
+    border: 2px solid var(--text-color-suppotr);
+}
+
+.spider-man-img-2{
+    grid-column: 1;
+    width: 230px;
+    border: 2px solid var(--text-color-suppotr);
+}
+
+.spider-man-img-3{
+    grid-column: 2;
+    width: 230px;
+    border: 2px solid var(--text-color-suppotr);
+}
+
+.png-spider-man img{
+    width: 315px;
+}
+
+.scroll-spider-man{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-spider-man a{
+    text-decoration: none;
+    color: var(--text-color-main);
+    writing-mode: vertical-rl;
+    font-size: 24px;
+    font-family: var(--font-main);
+    letter-spacing: 2px;
+    border-left: 1px solid var(--text-color-suppotr);
+    border-right: 1px solid var(--text-color-suppotr);
+    padding: 30px 39px;
+}
+
+.scroll-spider-man-1{
+    background-color: rgba(249, 32, 49, 0.5);
+}
+
+.scroll-spider-man-1:hover{
+    background-color: var(--ironman-color);
+    transition: 0.8s;
+}
+
+.scroll-spider-man-2{
+    background: rgb(91,3,150);
+    background: radial-gradient(circle, rgba(55, 2, 90, 0.7) 47%, rgba(15, 1, 117, 0.6) 83%);
+}
+
+.scroll-spider-man-2:hover{
+    background: rgb(91,3,150);
+    background: radial-gradient(circle, rgba(55, 2, 90, 1) 47%, rgba(15, 1, 117, 1) 83%);
+    transition: 0.8s;
+}
+
+.scroll-spider-man-3{
+    background: rgb(50,12,54);
+    background: radial-gradient(circle, rgba(50, 12, 54, 0.8) 36%, rgba(10, 1, 71, 0.8) 89%);
+}
+
+.scroll-spider-man-3:hover{
+    background: rgb(50,12,54);
+    background: radial-gradient(circle, rgba(50, 12, 54, 1) 36%, rgba(10, 1, 71, 1) 89%);
+    transition: 0.8s;
+}
+
+.scroll-spider-man-4{
+    background: rgb(64,30,39);
+    background: radial-gradient(circle, rgba(64 ,30 ,39 , 0.6) 27%, rgba(8 ,0 ,59 , 0.8) 96%);
+}
+
+.scroll-spider-man-4:hover{
+    background: rgb(64,30,39);
+    background: radial-gradient(circle, rgba(64 ,30 ,39 , 1) 27%, rgba(8 ,0 ,59 , 1) 96%);
+    transition: 0.8s;
+}
+
+/* end iron man */
+
+/* end spider-man */
