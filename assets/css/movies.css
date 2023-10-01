@@ -11,22 +11,22 @@
     /* #f92031*/
     --thor-color: rgb(117, 0, 35);
     /* #ab0033 */
+    --spider-man-color: rgb(249, 15, 40);
+    /* #f90f28 */
+    --captain-marvel-color:rgb(127, 13, 2);
+    /* #7f0d02 */
+    --hulk-color: rgb(14, 188, 29);
+    /* #0ebc1d */
     --star-lord-color-1: rgb(228, 94, 49);
     /* #e45e31 */
     --star-lord-color-2: rgb(124, 47, 189);
     /* #7c2fbd */
-    --spider-man-color: rgb(249, 15, 40);
-    /* #f90f28 */
-    --hulk-color: rgb(14, 188, 29);
-    /* #0ebc1d */
     --captain-america-color: rgb(36, 86, 178);
     /* #2456b2 */
     --widow-black-color: rgb(216, 169, 18);
     /* #d8a912 */
     --hawkeye-color: rgb(99, 17, 108);
     /* #63116c */
-    --captain-marvel-color:rgb(127, 13, 2);
-    /* #7f0d02 */
     --ant-man-color:rgb(98, 107, 124);
     /* #626b7c */
     --loki-color:rgb(38, 166, 47);
@@ -51,6 +51,8 @@
     /* #3a5758 */
     --drax-color:rgb(86, 51, 54);
     /* #563336 */
+    --mantis-color:rgb(120, 153, 75);
+    /* #78994b */
     --nebula-color:rgb(140, 220, 225);
     /* #aaf8ff */
     --bucky-barnes-color:rgb(181, 189, 192);
@@ -63,6 +65,22 @@
     /* #dc4331 */
     --mysterio-color:rgb(46, 98, 62);
     /* #2e623e */
+    --otto-octavius-color:rgb(55, 140, 72);
+    /* #378c48 */
+    --green-goblin-color:rgb(40, 54, 36);
+    /* #283624 */
+    --hela-color:rgb(35, 40, 39);
+    /* #232827 */
+    --mighty-thor-color:rgb(217, 220, 227);
+    /* #d9dce3 */
+    --odin-color:rgb(243, 231, 194);
+    /* #f3e7c2 */
+    --thanos-color:rgb(106, 61, 100);
+    /* #6a3d64 */
+    --valkyrie-color:rgb(155, 167, 161);
+    /* #9ba7a1 */
+    --daredevil-color:rgb(60, 39, 56);
+    /* #3c2738 */
 }
 
 *{
@@ -74,7 +92,7 @@
 body{
     background-color: black;
     color: var(--text-color-main);
-    background-image: url(bg/bg/ironman-bg-2.jpg);
+    background-image: url(bg/bg/movies-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
