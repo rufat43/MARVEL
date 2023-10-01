@@ -426,42 +426,43 @@ main{
     letter-spacing: 2px;
     border-left: 1px solid var(--text-color-suppotr);
     border-right: 1px solid var(--text-color-suppotr);
+    border-bottom: 1px solid var(--text-color-suppotr);
     padding: 30px 39px;
 }
 
 .scroll-spider-man-1{
-    background-color: rgba(249, 15, 40, 0.5);
+    background: radial-gradient(circle, rgba(134, 41, 41, 0.8) 36%, rgba(95, 62, 62, 0.8) 89%);
 }
 
 .scroll-spider-man-1:hover{
-    background-color: var(--spider-man-color);
+    background: radial-gradient(circle, rgb(134, 41, 41) 36%, rgba(95, 62, 62, 1) 89%);
     transition: 0.8s;
 }
 
 .scroll-spider-man-2{
-    background: radial-gradient(circle, rgba(244, 108, 111, 0.7) 47%, rgba(119, 39, 41, 0.6) 83%);
+    background: radial-gradient(circle, rgba(124, 57, 59, 0.7) 47%, rgba(126, 30, 32, 0.6) 83%);
 }
 
 .scroll-spider-man-2:hover{
-    background: radial-gradient(circle, rgba(244, 108, 111, 1) 47%, rgba(119, 39, 41, 1) 83%);
+    background: radial-gradient(circle, rgba(124, 57, 59, 1) 47%, rgb(126, 30, 32) 83%);
     transition: 0.8s;
 }
 
 .scroll-spider-man-3{
-    background: radial-gradient(circle, rgba(205, 89, 89, 0.8) 36%, rgba(149, 39, 41, 0.8) 89%);
+    background-color: rgba(249, 15, 40, 0.5);
 }
 
 .scroll-spider-man-3:hover{
-    background: radial-gradient(circle, rgba(205, 89, 89, 1) 36%, rgba(149, 39, 41, 1) 89%);
+    background-color: var(--spider-man-color);
     transition: 0.8s;
 }
 
 .scroll-spider-man-4{
-    background: radial-gradient(circle, rgba(167, 84, 82, 0.6) 27%, rgba(149, 50, 49, 0.8) 96%);
+    background: radial-gradient(circle, rgba(112, 41, 40, 0.6) 27%, rgba(149, 50, 49, 0.8) 96%);
 }
 
 .scroll-spider-man-4:hover{
-    background: radial-gradient(circle, rgba(167, 84, 82, 1) 27%, rgba(149, 50, 49, 1) 96%);
+    background: radial-gradient(circle, rgba(112, 41, 40, 1) 27%, rgba(149, 50, 49, 1) 96%);
     transition: 0.8s;
 }
 /* end spider-man */
