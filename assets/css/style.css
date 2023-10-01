@@ -11,22 +11,22 @@
     /* #f92031*/
     --thor-color: rgb(117, 0, 35);
     /* #ab0033 */
+    --spider-man-color: rgb(249, 15, 40);
+    /* #f90f28 */
+    --captain-marvel-color:rgb(127, 13, 2);
+    /* #7f0d02 */
+    --hulk-color: rgb(14, 188, 29);
+    /* #0ebc1d */
     --star-lord-color-1: rgb(228, 94, 49);
     /* #e45e31 */
     --star-lord-color-2: rgb(124, 47, 189);
     /* #7c2fbd */
-    --spider-man-color: rgb(249, 15, 40);
-    /* #f90f28 */
-    --hulk-color: rgb(14, 188, 29);
-    /* #0ebc1d */
     --captain-america-color: rgb(36, 86, 178);
     /* #2456b2 */
     --widow-black-color: rgb(216, 169, 18);
     /* #d8a912 */
     --hawkeye-color: rgb(99, 17, 108);
     /* #63116c */
-    --captain-marvel-color:rgb(127, 13, 2);
-    /* #7f0d02 */
     --ant-man-color:rgb(98, 107, 124);
     /* #626b7c */
     --loki-color:rgb(38, 166, 47);
@@ -770,34 +770,28 @@ main{
 }
 
 .scroll-iron-man-2{
-    background: rgb(91,3,150);
     background: radial-gradient(circle, rgba(55, 2, 90, 0.7) 47%, rgba(15, 1, 117, 0.6) 83%);
 }
 
 .scroll-iron-man-2:hover{
-    background: rgb(91,3,150);
     background: radial-gradient(circle, rgba(55, 2, 90, 1) 47%, rgba(15, 1, 117, 1) 83%);
     transition: 0.8s;
 }
 
 .scroll-iron-man-3{
-    background: rgb(50,12,54);
     background: radial-gradient(circle, rgba(50, 12, 54, 0.8) 36%, rgba(10, 1, 71, 0.8) 89%);
 }
 
 .scroll-iron-man-3:hover{
-    background: rgb(50,12,54);
     background: radial-gradient(circle, rgba(50, 12, 54, 1) 36%, rgba(10, 1, 71, 1) 89%);
     transition: 0.8s;
 }
 
 .scroll-iron-man-4{
-    background: rgb(64,30,39);
     background: radial-gradient(circle, rgba(64 ,30 ,39 , 0.6) 27%, rgba(8 ,0 ,59 , 0.8) 96%);
 }
 
 .scroll-iron-man-4:hover{
-    background: rgb(64,30,39);
     background: radial-gradient(circle, rgba(64 ,30 ,39 , 1) 27%, rgba(8 ,0 ,59 , 1) 96%);
     transition: 0.8s;
 }
@@ -937,34 +931,28 @@ main{
 }
 
 .scroll-thor-2{
-    background: rgb(60,65,65);
     background: radial-gradient(circle, rgba(60,65,65,0.7) 12%, rgba(2,22,47,0.7) 93%);
 }
 
 .scroll-thor-2:hover{
-    background: rgb(60,65,65);
     background: radial-gradient(circle, rgba(60,65,65,1) 12%, rgba(2,22,47,1) 93%);
     transition: 0.8s;
 }
 
 .scroll-thor-3{
-    background: rgb(72,82,82);
     background: radial-gradient(circle, rgba(72,82,82,0.7) 16%, rgba(5,34,60,0.7) 69%);
 }
 
 .scroll-thor-3:hover{
-    background: rgb(72,82,82);
     background: radial-gradient(circle, rgba(72,82,82,1) 16%, rgba(5,34,60,1) 69%);
     transition: 0.8s;
 }
 
 .scroll-thor-4{
-    background: rgb(52,54,54);
     background: radial-gradient(circle, rgba(52,54,54,0.7) 34%, rgba(0,21,31,0.7) 81%);
 }
 
 .scroll-thorn-4:hover{
-    background: rgb(52,54,54);
     background: radial-gradient(circle, rgba(52,54,54,1) 34%, rgba(0,21,31,1) 81%);
     transition: 0.8s;
 }
@@ -1050,7 +1038,7 @@ main{
 }
 
 .png-spider-man img{
-    width: 315px;
+    width: 280px;
 }
 
 .scroll-spider-man{
@@ -1073,47 +1061,39 @@ main{
 }
 
 .scroll-spider-man-1{
-    background-color: rgba(249, 32, 49, 0.5);
+    background-color: rgba(249, 15, 40, 0.5);
 }
 
 .scroll-spider-man-1:hover{
-    background-color: var(--ironman-color);
+    background-color: var(--spider-man-color);
     transition: 0.8s;
 }
 
 .scroll-spider-man-2{
-    background: rgb(91,3,150);
-    background: radial-gradient(circle, rgba(55, 2, 90, 0.7) 47%, rgba(15, 1, 117, 0.6) 83%);
+    background: radial-gradient(circle, rgba(244, 108, 111, 0.7) 47%, rgba(119, 39, 41, 0.6) 83%);
 }
 
 .scroll-spider-man-2:hover{
-    background: rgb(91,3,150);
-    background: radial-gradient(circle, rgba(55, 2, 90, 1) 47%, rgba(15, 1, 117, 1) 83%);
+    background: radial-gradient(circle, rgba(244, 108, 111, 1) 47%, rgba(119, 39, 41, 1) 83%);
     transition: 0.8s;
 }
 
 .scroll-spider-man-3{
-    background: rgb(50,12,54);
-    background: radial-gradient(circle, rgba(50, 12, 54, 0.8) 36%, rgba(10, 1, 71, 0.8) 89%);
+    background: radial-gradient(circle, rgba(205, 89, 89, 0.8) 36%, rgba(149, 39, 41, 0.8) 89%);
 }
 
 .scroll-spider-man-3:hover{
-    background: rgb(50,12,54);
-    background: radial-gradient(circle, rgba(50, 12, 54, 1) 36%, rgba(10, 1, 71, 1) 89%);
+    background: radial-gradient(circle, rgba(205, 89, 89, 1) 36%, rgba(149, 39, 41, 1) 89%);
     transition: 0.8s;
 }
 
 .scroll-spider-man-4{
-    background: rgb(64,30,39);
-    background: radial-gradient(circle, rgba(64 ,30 ,39 , 0.6) 27%, rgba(8 ,0 ,59 , 0.8) 96%);
+    background: radial-gradient(circle, rgba(167, 84, 82, 0.6) 27%, rgba(149, 50, 49, 0.8) 96%);
 }
 
 .scroll-spider-man-4:hover{
-    background: rgb(64,30,39);
-    background: radial-gradient(circle, rgba(64 ,30 ,39 , 1) 27%, rgba(8 ,0 ,59 , 1) 96%);
+    background: radial-gradient(circle, rgba(167, 84, 82, 1) 27%, rgba(149, 50, 49, 1) 96%);
     transition: 0.8s;
 }
-
-/* end iron man */
 
 /* end spider-man */
