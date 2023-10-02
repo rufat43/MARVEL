@@ -213,6 +213,7 @@ main{
 .scroll-card-iron-man{
     background-image: url(bg/ironman-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-iron-man:hover{
@@ -222,9 +223,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-iron-man a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-thor{
     background-image: url(bg/thor-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-thor:hover{
@@ -234,9 +245,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-thor a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-spider-man{
     background-image: url(bg/spiderman-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-spider-man:hover{
@@ -246,9 +267,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-spider-man a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-captain-marvel{
     background-image: url(bg/captain-marvel.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-captain-marvel:hover{
@@ -258,9 +289,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-captain-marvel a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-hulk{
     background-image: url(bg/hulk-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-hulk:hover{
@@ -270,9 +311,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-hulk a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-captain-america{
     background-image: url(bg/captain-america.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-captain-america:hover{
@@ -282,9 +333,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-captain-america a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-star-lold{
     background-image: url(bg/starlord-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-star-lold:hover{
@@ -294,9 +355,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-star-lold a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-black-widow{
     background-image: url(bg/black-widow-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-black-widow:hover{
@@ -306,9 +377,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-black-widow a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-hawkeye{
     background-image: url(bg/hawkeye-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-hawkeye:hover{
@@ -318,9 +399,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-hawkeye a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-ant-man{
     background-image: url(bg/ant-man-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-ant-man:hover{
@@ -330,9 +421,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-ant-man a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-loki{
     background-image: url(bg/loki-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-loki:hover{
@@ -342,9 +443,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-loki a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-wanda{
     background-image: url(bg/wanda-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-wanda:hover{
@@ -354,9 +465,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-wanda a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-vision{
     background-image: url(bg/vision-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-vision:hover{
@@ -366,9 +487,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-vision a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-black-panther{
     background-image: url(bg/black-panther-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-black-panther:hover{
@@ -378,9 +509,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-black-panther a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-doctor-strange{
     background-image: url(bg/doctor-strange-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-doctor-strange:hover{
@@ -390,9 +531,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-doctor-strange a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-wasp{
     background-image: url(bg/wasp-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-wasp:hover{
@@ -400,6 +551,15 @@ main{
     box-shadow: inset 44px 0px 29px -12px rgba(200, 180, 66, 0.6);
     height: 140px;
     transition: 0.8s;
+}
+
+.scroll-card-wasp a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .scroll-card-shang-chi{
