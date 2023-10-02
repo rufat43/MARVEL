@@ -565,6 +565,7 @@ main{
 .scroll-card-shang-chi{
     background-image: url(bg/shang-chi-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-shang-chi:hover{
@@ -572,6 +573,15 @@ main{
     box-shadow: inset 44px 0px 29px -12px rgba(53, 7, 7, 0.6);
     height: 140px;
     transition: 0.8s;
+}
+
+.scroll-card-shang-chi a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .scroll-card-groot{
