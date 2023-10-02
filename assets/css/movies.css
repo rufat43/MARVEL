@@ -405,3 +405,80 @@ main{
 }
 
 /* end spider-man */
+
+/* !!!!!!!!!!!media!!!!!!! */
+
+@media screen and (max-width: 420px) {
+
+    .menu{
+        display: inline-block;
+        text-align: center;
+        gap: 1rem 3rem;
+        border-bottom: 1px solid var(--text-color-suppotr); 
+        padding: 10px;    
+    }
+
+    .menu-container a{
+        font-size: 14px;
+    }
+    .menu-container-1{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .menu-logo{
+        display: none;
+    }
+
+    .menu-container-2{
+        display: none;
+    }
+    main{
+        padding-top: 41px;
+    }
+
+    .social{
+        display: none;
+    }
+
+    .scroll-iron-man{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+    }
+    .scroll-iron-man a{
+        writing-mode: horizontal-tb;
+        font-size: 14px;
+        padding: 5px 30px;
+    }
+    .scroll-iron-man-1{
+        grid-column: 1;
+    }
+    .scroll-iron-man-2{
+        grid-column: 2;
+    }
+    .scroll-iron-man-3{
+        grid-column: 1;
+    }
+    .scroll-iron-man-4{
+        grid-column: 2;
+    }
+
+    .movies-card-1 {
+        display: none;
+    }
+    .movies-card-2 {
+        margin-left: 700px;
+        margin-top: 70px;
+    }
+    .trailer h2{
+        width: 360px;
+    }
+    .trailer iframe{
+        width: 350px;
+    }
+}
