@@ -587,6 +587,7 @@ main{
 .scroll-card-groot{
     background-image: url(bg/groot-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-groot:hover{
@@ -596,9 +597,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-groot a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-rocket{
     background-image: url(bg/rocket-card.png);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-rocket:hover{
@@ -608,9 +619,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-rocket a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-gamora{
     background-image: url(bg/gamora-card.png);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-gamora:hover{
@@ -620,9 +641,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-gamora a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-drax{
     background-image: url(bg/drax-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-drax:hover{
@@ -632,9 +663,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-drax a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-mantis{
     background-image: url(bg/mantis-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-mantis:hover{
@@ -644,9 +685,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-mantis a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-nebula{
     background-image: url(bg/nebula-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-nebula:hover{
@@ -656,9 +707,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-nebula a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-bucky-barnes{
     background-image: url(bg/bucky-barnes-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-bucky-barnes:hover{
@@ -668,9 +729,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-bucky-barnes a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-falcon{
     background-image: url(bg/faicon-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-falcon:hover{
@@ -680,9 +751,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-falcon a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-war-machine{
     background-image: url(bg/war-machine-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-war-machine:hover{
@@ -692,9 +773,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-war-machine a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-wong{
     background-image: url(bg/wong-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-wong:hover{
@@ -704,9 +795,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-wong a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-mysterio{
     background-image: url(bg/mysterio-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-mysterio:hover{
@@ -714,6 +815,15 @@ main{
     box-shadow: inset 44px 0px 29px -12px rgba(46, 98, 62, 0.6);
     height: 140px;
     transition: 0.8s;
+}
+
+.scroll-card-mysterio a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .scroll-card-otto-octavius{
