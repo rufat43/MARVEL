@@ -159,7 +159,6 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: black;
 }
 
 .social-container{
@@ -167,7 +166,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
     padding: 16px;
     gap: 1rem; 
     position: fixed;
