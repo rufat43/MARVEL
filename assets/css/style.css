@@ -829,6 +829,7 @@ main{
 .scroll-card-otto-octavius{
     background-image: url(bg/otto-octavius-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-otto-octavius:hover{
@@ -838,9 +839,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-otto-octavius a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-green-goblin{
     background-image: url(bg/green-goblin-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-green-goblin:hover{
@@ -850,9 +861,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-goblin a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-hela{
     background-image: url(bg/hela-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-hela:hover{
@@ -862,9 +883,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-hela a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-mighty-thor{
     background-image: url(bg/mighty-thor-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-mighty-thor:hover{
@@ -874,9 +905,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-mighty-thor a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-odin{
     background-image: url(bg/odin-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-odin:hover{
@@ -886,9 +927,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-odin a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-thanos{
     background-image: url(bg/thanos-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-thanos:hover{
@@ -898,9 +949,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-thanos a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-valkyrie{
     background-image: url(bg/valkyrie-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-valkyrie:hover{
@@ -910,9 +971,19 @@ main{
     transition: 0.8s;
 }
 
+.scroll-card-valkyrie a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .scroll-card-daredevil{
     background-image: url(bg/daredevil-card.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .scroll-card-daredevile:hover{
@@ -920,6 +991,15 @@ main{
     box-shadow: inset 44px 0px 29px -12px rgba(60, 39, 56, 0.6);
     height: 140px;
     transition: 0.8s;
+}
+
+.scroll-card-daredevil a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .scroll-card a{
